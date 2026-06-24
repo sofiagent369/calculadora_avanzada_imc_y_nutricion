@@ -115,7 +115,7 @@ button:hover {
 
 @media (min-width: 768px) {
     .container {
-        flex-direction: row;
+        display: flex;
         gap: 30px;
     }
 
