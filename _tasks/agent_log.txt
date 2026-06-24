@@ -12,3 +12,5 @@
 [2026-06-24 05:29:16] [IN_PROGRESS] task_001: Crear estructura HTML
 [2026-06-24 05:36:25] [COMPLETED] task_001: Crear estructura HTML
 [2026-06-24 05:36:27] [IN_PROGRESS] task_002: Diseñar estilos CSS
+[2026-06-24 05:41:26] [COMPLETED] task_002: Diseñar estilos CSS
+[2026-06-24 05:41:29] [IN_PROGRESS] task_003: Implementar lógica JavaScript básica
