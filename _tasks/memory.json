@@ -1,0 +1,11 @@
+{
+  "context": [],
+  "decisions": [],
+  "file_map": {
+    "frontend_expert": [
+      "index.html",
+      "styles.css",
+      "scripts/calculator.js"
+    ]
+  }
+}

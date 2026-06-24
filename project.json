@@ -1,0 +1,17 @@
+{
+  "name": "calculadora_avanzada_imc_y_nutricion",
+  "display_name": "calculadora_avanzada_imc_y_nutricion",
+  "description": "Calculadora avanzada de IMC y nutrición con gráficos usando Chart.js, guardar historial, comparar resultados, exportar PDF. Dashboard profesional con HTML, CSS, JS.",
+  "tech_stack": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Chart.js"
+  ],
+  "created_at": "2026-06-24T05:29:15.741973",
+  "created_by": "Bot_Ant Multi-Agent System",
+  "version": "1.0.0",
+  "status": "in_development",
+  "portable": true,
+  "notes": "Este proyecto es portable. Puedes mover la carpeta completa a otro equipo."
+}

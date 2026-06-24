@@ -1,0 +1,106 @@
+{
+  "project_name": "calculadora_avanzada_imc_y_nutricion",
+  "description": "Calculadora avanzada de IMC y nutrición con gráficos usando Chart.js, guardar historial, comparar resultados, exportar PDF. Dashboard profesional con HTML, CSS, JS.",
+  "tech_stack": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Chart.js"
+  ],
+  "tasks": [
+    {
+      "title": "Crear estructura HTML",
+      "description": "Crear index.html con layout de la calculadora: campos para entrada de datos (peso, altura), botones para cálculo, secciones para gráficos y historial.",
+      "assigned_to": "frontend_expert",
+      "dependencies": [],
+      "priority": 1
+    },
+    {
+      "title": "Diseñar estilos CSS",
+      "description": "Crear styles.css con diseño profesional: colores limpios, tipografía elegante, layout responsivo, estilos para gráficos y secciones de historial.",
+      "assigned_to": "ui_expert",
+      "dependencies": [
+        "task_001"
+      ],
+      "priority": 2
+    },
+    {
+      "title": "Implementar lógica JavaScript básica",
+      "description": "Crear script.js con la funcionalidad básica para calcular el IMC y mostrar los resultados.",
+      "assigned_to": "frontend_expert",
+      "dependencies": [
+        "task_001"
+      ],
+      "priority": 2
+    },
+    {
+      "title": "Integrar Chart.js para gráficos",
+      "description": "Agregar funciones de Chart.js en script.js para visualizar los datos del IMC y otras métricas nutricionales.",
+      "assigned_to": "frontend_expert",
+      "dependencies": [
+        "task_003"
+      ],
+      "priority": 3
+    },
+    {
+      "title": "Implementar funcionalidad de historial",
+      "description": "Crear una sección en HTML para mostrar el historial de cálculos y guardar resultados en localStorage.",
+      "assigned_to": "frontend_expert",
+      "dependencies": [
+        "task_001"
+      ],
+      "priority": 3
+    },
+    {
+      "title": "Implementar comparación de resultados",
+      "description": "Agregar funcionalidad para comparar diferentes cálculos del IMC y mostrar diferencias en la interfaz.",
+      "assigned_to": "frontend_expert",
+      "dependencies": [
+        "task_003",
+        "task_005"
+      ],
+      "priority": 4
+    },
+    {
+      "title": "Implementar exportación a PDF",
+      "description": "Usar una biblioteca como jsPDF para permitir la exportación del historial de cálculos y gráficos en formato PDF.",
+      "assigned_to": "frontend_expert",
+      "dependencies": [
+        "task_001",
+        "task_003"
+      ],
+      "priority": 4
+    },
+    {
+      "title": "Añadir funcionalidades adicionales",
+      "description": "Desarrollar características extras como cálculo de calorías, recomendaciones nutricionales y visualización adicional de datos.",
+      "assigned_to": "frontend_expert",
+      "dependencies": [
+        "task_003"
+      ],
+      "priority": 5
+    },
+    {
+      "title": "Optimizar y depurar código",
+      "description": "Revisar el código para eliminar errores, mejorar rendimiento y asegurar una experiencia de usuario fluida.",
+      "assigned_to": "frontend_expert",
+      "dependencies": [
+        "task_001",
+        "task_002",
+        "task_003"
+      ],
+      "priority": 6
+    },
+    {
+      "title": "README",
+      "description": "Crear README.md con descripción del proyecto, imágenes de la interfaz, instrucciones de uso y configuración.",
+      "assigned_to": "writer_agent",
+      "dependencies": [
+        "task_001",
+        "task_002",
+        "task_003"
+      ],
+      "priority": 7
+    }
+  ]
+}

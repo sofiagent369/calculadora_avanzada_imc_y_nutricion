@@ -1,0 +1,169 @@
+{
+  "tasks": [
+    {
+      "id": "task_001",
+      "title": "Crear estructura HTML",
+      "description": "Crear index.html con layout de la calculadora: campos para entrada de datos (peso, altura), botones para cálculo, secciones para gráficos y historial.",
+      "assigned_to": "frontend_expert",
+      "status": "in_progress",
+      "priority": 1,
+      "dependencies": [],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-24T05:29:15.749266",
+      "started_at": "2026-06-24T05:29:16.925252",
+      "completed_at": null
+    },
+    {
+      "id": "task_002",
+      "title": "Diseñar estilos CSS",
+      "description": "Crear styles.css con diseño profesional: colores limpios, tipografía elegante, layout responsivo, estilos para gráficos y secciones de historial.",
+      "assigned_to": "ui_expert",
+      "status": "pending",
+      "priority": 2,
+      "dependencies": [
+        "task_001"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-24T05:29:15.749266",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "task_003",
+      "title": "Implementar lógica JavaScript básica",
+      "description": "Crear script.js con la funcionalidad básica para calcular el IMC y mostrar los resultados.",
+      "assigned_to": "frontend_expert",
+      "status": "pending",
+      "priority": 2,
+      "dependencies": [
+        "task_001"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-24T05:29:15.765063",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "task_004",
+      "title": "Integrar Chart.js para gráficos",
+      "description": "Agregar funciones de Chart.js en script.js para visualizar los datos del IMC y otras métricas nutricionales.",
+      "assigned_to": "frontend_expert",
+      "status": "pending",
+      "priority": 3,
+      "dependencies": [
+        "task_003"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-24T05:29:15.765063",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "task_005",
+      "title": "Implementar funcionalidad de historial",
+      "description": "Crear una sección en HTML para mostrar el historial de cálculos y guardar resultados en localStorage.",
+      "assigned_to": "frontend_expert",
+      "status": "pending",
+      "priority": 3,
+      "dependencies": [
+        "task_001"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-24T05:29:15.780919",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "task_006",
+      "title": "Implementar comparación de resultados",
+      "description": "Agregar funcionalidad para comparar diferentes cálculos del IMC y mostrar diferencias en la interfaz.",
+      "assigned_to": "frontend_expert",
+      "status": "pending",
+      "priority": 4,
+      "dependencies": [
+        "task_003",
+        "task_005"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-24T05:29:15.780919",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "task_007",
+      "title": "Implementar exportación a PDF",
+      "description": "Usar una biblioteca como jsPDF para permitir la exportación del historial de cálculos y gráficos en formato PDF.",
+      "assigned_to": "frontend_expert",
+      "status": "pending",
+      "priority": 4,
+      "dependencies": [
+        "task_001",
+        "task_003"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-24T05:29:15.796674",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "task_008",
+      "title": "Añadir funcionalidades adicionales",
+      "description": "Desarrollar características extras como cálculo de calorías, recomendaciones nutricionales y visualización adicional de datos.",
+      "assigned_to": "frontend_expert",
+      "status": "pending",
+      "priority": 5,
+      "dependencies": [
+        "task_003"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-24T05:29:15.796674",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "task_009",
+      "title": "Optimizar y depurar código",
+      "description": "Revisar el código para eliminar errores, mejorar rendimiento y asegurar una experiencia de usuario fluida.",
+      "assigned_to": "frontend_expert",
+      "status": "pending",
+      "priority": 6,
+      "dependencies": [
+        "task_001",
+        "task_002",
+        "task_003"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-24T05:29:15.812636",
+      "started_at": null,
+      "completed_at": null
+    },
+    {
+      "id": "task_010",
+      "title": "README",
+      "description": "Crear README.md con descripción del proyecto, imágenes de la interfaz, instrucciones de uso y configuración.",
+      "assigned_to": "writer_agent",
+      "status": "pending",
+      "priority": 7,
+      "dependencies": [
+        "task_001",
+        "task_002",
+        "task_003"
+      ],
+      "output_files": [],
+      "output_summary": "",
+      "created_at": "2026-06-24T05:29:15.812636",
+      "started_at": null,
+      "completed_at": null
+    }
+  ],
+  "updated_at": "2026-06-24T05:29:16.925252"
+}
