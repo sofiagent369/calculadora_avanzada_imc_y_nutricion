@@ -14,3 +14,11 @@
 [2026-06-24 05:36:27] [IN_PROGRESS] task_002: Diseñar estilos CSS
 [2026-06-24 05:41:26] [COMPLETED] task_002: Diseñar estilos CSS
 [2026-06-24 05:41:29] [IN_PROGRESS] task_003: Implementar lógica JavaScript básica
+[2026-06-24 05:46:42] [COMPLETED] task_003: Implementar lógica JavaScript básica
+[2026-06-24 05:46:45] [IN_PROGRESS] task_004: Integrar Chart.js para gráficos
+[2026-06-24 05:58:11] [COMPLETED] task_004: Integrar Chart.js para gráficos
+[2026-06-24 05:58:14] [IN_PROGRESS] task_005: Implementar funcionalidad de historial
+[2026-06-24 06:10:09] [COMPLETED] task_005: Implementar funcionalidad de historial
+[2026-06-24 06:10:12] [IN_PROGRESS] task_006: Implementar comparación de resultados
+[2026-06-24 06:25:16] [FAILED] task_006: Implementar comparación de resultados
+[2026-06-24 06:25:18] [IN_PROGRESS] task_007: Implementar exportación a PDF
